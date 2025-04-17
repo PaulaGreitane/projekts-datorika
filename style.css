@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-  background-color: #0066cc;
+  background-color: #D3E7E9;
   width: 200px;
   min-height: 100vh;
   padding: 20px;
@@ -27,7 +27,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #0052a3;
+  background-color: #b8d1d3;
 }
 
 main {
