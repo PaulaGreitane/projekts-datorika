@@ -2,3 +2,35 @@ html {
   height: 100%;
   width: 100%;
 }
+
+body {
+  display: flex;
+  margin: 0;
+}
+
+nav {
+  background-color: #0066cc;
+  width: 200px;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #0052a3;
+}
+
+main {
+  padding: 20px;
+  flex: 1;
+}
