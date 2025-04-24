@@ -33,3 +33,19 @@ main {
   padding: 20px;
   flex: 1;
 }
+
+.header-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-group h2 {
+  font-size: 1.2em;
+  color: black;
+  margin: 0;
+}
+
+.header-group h1 {
+  margin: 0;
+}
