@@ -40,14 +40,26 @@ main {
   gap: 20px;
 }
 
-.header-group h2 {
-  font-size: 1.2em;
-  color: black;
-  margin: 0;
+
+position: relative;
+  background-color: #D3E7E9;
+  padding: 20px;
+  width: 1567px;
+  height: 232px;
 }
 
 .header-group h1 {
   margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.header-group h2 {
+  font-size: 1.2em;
+  color: black;
+  margin: 20px 0 0 0;
+  position: relative;
+  z-index: 1;
 }
 
 .content-wrapper {
