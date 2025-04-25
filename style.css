@@ -74,8 +74,5 @@ position: relative;
   padding: 0 20px;
 }
 .decorative-line {
-  width: 1567px;
-  height: 232px;
-  background-color: #D3E7E9;
-  margin: 20px 0;
+  display:none;
 }
