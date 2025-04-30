@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <title>SnoutPal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <img src="./photos/logo.PNG" alt="SnoutPal Logo" class="logo">
+    <div class="title-line">
+        <h1 class="main-title">Autorizācija</h1>
+    </div>
+      <a href="index.html" class="btn-sakums">Sākums</a>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#">Par mums</a></li>
+            <li><a href="galerija.html">Galerija</a></li>
+            <li><a href="#">Piedāvājums</a></li>
+            <li><a href="#">Kontakti</a></li>
+            <li><a href="#">Sūdzības</a></li>
+            <li><a href="autorizacija.html">Autorizācija</a></li>
+        </ul>
+    </nav>
+
+    <main class="auth-container">
+      <form class="auth-form" id="loginForm">
+          <label for="username">Lietotājvārds vai e-pasts</label>
+          <input type="text" id="username" name="username" required>
+    
+          <label for="password">Parole</label>
+          <input type="password" id="password" name="password" required>
+    
+          <button type="submit" class="login-button">Pieteikties</button>
+
+          <p id="loginMessage" class="login-message"></p>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  <footer class="footer">
+      <p>&copy; 2025 SnoutPal. Visas tiesības aizsargātas.</p>
+  </footer>
+</body>
+</html>
